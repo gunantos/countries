@@ -10,9 +10,9 @@
 
 var db = new loki('csc.db');
 
-const countriesJSON = 'https://raw.githubusercontent.com/dr5hn/countries-states-cities-database/master/countries.json';
-const statesJSON = 'https://raw.githubusercontent.com/dr5hn/countries-states-cities-database/master/states.json';
-const citiesJSON = 'https://raw.githubusercontent.com/dr5hn/countries-states-cities-database/master/cities.json';
+const countriesJSON = 'https://raw.githubusercontent.com/gunantos/countries-states-cities-database/master/countries.json';
+const statesJSON = 'https://raw.githubusercontent.com/gunantos/countries-states-cities-database/master/states.json';
+const citiesJSON = 'https://raw.githubusercontent.com/gunantos/countries-states-cities-database/master/cities.json';
 
 async function initializeData() {
   var countries = db.getCollection("countries");
